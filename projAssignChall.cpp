@@ -31,6 +31,8 @@ vector<int> makeTone(vector<int>waveform,int oneTone,int sample_rate ,int durati
 		int temp = volume*sin(2*M_PI*frequency*t);
 		waveform.push_back(temp);
 		std::cout << temp << std::endl;
+		std::cout << temp << std::endl;
+
 	}
 
 	
